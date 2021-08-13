@@ -1,11 +1,15 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="ui fixed menu">
-      <div className="ui container center">
-        <h2>FakeShop</h2>
-      </div>
+    <div class="ui menu">
+      <Link to="/">
+        <div class="header item">FakeShop</div>
+      </Link>
+      <a class="item">About Us</a>
+      <a class="item">Jobs</a>
+      <a class="item">Locations</a>
     </div>
   );
 };
