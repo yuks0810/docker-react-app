@@ -1,3 +1,6 @@
+参考：
+https://github.com/dmalvia/React_Redux_Tutorial
+
 ## docker
 
 ### 起動コマンド
