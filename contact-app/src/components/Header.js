@@ -3,10 +3,11 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="ui fixed menu">
-      <div className="ui container center">
-        <h2>Contact Manager</h2>
-      </div>
+    <div class="ui menu">
+      <div class="header item">Our Company</div>
+      <a class="item">About Us</a>
+      <a class="item">Jobs</a>
+      <a class="item">Locations</a>
     </div>
   );
 };

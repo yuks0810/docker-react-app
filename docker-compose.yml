@@ -6,7 +6,7 @@ services:
     volumes:
       - ./:/usr/src/app
     # command: sh -c "cd ec-app && npm run start"
-    command: sh -c "while:; do sleep 10; done"
+    command: sh -c "cd ec-app && npm install && while:; do sleep 10; done"
     ports:
       - "3000:3000"
       - "3001:3001"
